@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<title>Random password generator</title>
+</head>
+<body>
+	<header>
+		<h2>Random pass generator</h2>
+	</header>
+	<section class="wrapper">
+		<div class="pass-wrapper">
+			<div class="check pass">
+				<!-- Password will show here -->
+				<span class="input" id="showpass">Your password will show here</span>
+			</div>
+			<div class="check">
+				<label>Total Length</label>
+				<input type="number" class="numbers" max="30" min="2" value="8" id="totalChar">
+			</div>
+			<div class="check">
+				<label>Uppercase Characters</label>
+				<input type="checkbox" class="check-box" id="uppercase" checked>
+			</div>
+			<div class="check">
+				<label>LowerCase Characters</label>
+				<input type="checkbox" class="checkbox" id="lowercase" checked>
+			</div>
+			<div class="check">
+				<label>Numbers</label>
+				<input type="checkbox" class="checkbox" id="numbers">
+			</div>
+			<div class="check">
+				<label>Special Characters</label>
+				<input type="checkbox" class="checkbox" id="specialChar">
+			</div>
+			<div class="button">
+				<button class="btn" id="btn">Genrate</button>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<h4>Copyright <span style="color: red;">Mehar Ehsaan</span> @meharehsaan02 | 2022</h4>
+	</footer>
+
+	<!-- Javascript -->
+	<script src="script.js"></script>
+</body>
+</html>

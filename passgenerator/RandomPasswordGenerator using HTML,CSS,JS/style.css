@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+	background: #1B53B9;
+	min-height: 100vh;
+}
+
+/* Header CSS */
+
+header{
+	font-weight: 500;
+	font-size: 18px;
+	color: #fff;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	text-align: center;
+	min-height: 45px;
+	background: blue;
+	text-align: center;
+	text-decoration: none;
+	color: red;
+}
+
+/* Content CSS */
+
+.wrapper{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+.pass-wrapper{
+	background: #fff;
+	width: 350px;
+	padding: 20px;
+	border-radius: 16px;
+	box-shadow: 0px 0px 128px 0px rgba(0, 0, 0, 0.1),
+				0px 32px 64px -48px rgba(0, 0, 0, 0.5);
+}
+
+.pass-wrapper .input{
+	width: 100%;
+	margin-bottom: 10px;
+	height: 45px;
+}
+
+.pass-wrapper .check{
+	display: flex;
+	margin-bottom: 10px;
+	
+}
+
+.pass-wrapper .pass{
+	border-bottom: 1px solid #333;
+}
+
+.pass-wrapper .check label{
+	margin-right: 15px;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+
+.pass-wrapper .check input{
+	margin-left: auto;
+}
+
+.pass-wrapper div span{
+	padding: 10px;
+	font-weight: 500;
+	font-size: 18px;
+	border: 2px solid #333;
+	border-radius: 8px;
+	color: #1B53B9;
+}
+
+.wrapper .pass-wrapper .button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrapper .pass-wrapper .btn{
+	width: 100%;
+	height: 35px;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 3px;
+	outline: none;
+	border-radius: 8px;
+	background: #333;
+	color: #fff;
+}
+
+/* Footer CSS */
+
+footer{
+	font-weight: 500;
+	font-size: 18px;
+	color: #fff;
+	padding-top: 17px;
+	text-align: center;
+	min-height: 45px;
+	background: blue;
+}
