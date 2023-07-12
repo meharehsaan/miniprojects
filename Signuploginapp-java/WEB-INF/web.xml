@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+	<servlet>
+		<servlet-name>1st</servlet-name>
+		<servlet-class>signup</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>1st</servlet-name>
+		<url-pattern>/register</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>2nd</servlet-name>
+		<servlet-class>signin</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>2nd</servlet-name>
+		<url-pattern>/signin</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>3rd</servlet-name>
+		<servlet-class>signout</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>3rd</servlet-name>
+		<url-pattern>/signout</url-pattern>
+	</servlet-mapping>
+
+	<error-page>
+      <location>/error.jsp</location>
+   </error-page>
+
+</web-app>
